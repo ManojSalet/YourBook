@@ -1,0 +1,40 @@
+# Root .gitignore for YourBook Full-Stack Project
+
+# Dependencies
+node_modules/
+*/node_modules/
+*/*/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+*/.env
+*/*/.env
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+*/dist/
+*/*/dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

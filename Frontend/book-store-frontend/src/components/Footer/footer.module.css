@@ -1,0 +1,16 @@
+.Footer{
+    background-color: var(--footer-background-color);
+    width: 100%;
+    height: 280px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+@media screen and (max-width: 768px){
+    .Footer{
+        height: 200px;
+    }
+    
+}

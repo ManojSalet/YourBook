@@ -1,0 +1,67 @@
+.rightText h2 {
+  font-size: 2.6vw;
+  font-weight: 600;
+}
+
+.rightText h5 {
+  font-size: 1.6vw;
+  font-weight: 500;
+  color: var(--text-dim-color);
+}
+
+.Categories h2,
+.exploreBooks h2,
+.ContactUs h2{
+  font-size: 3vw;
+  font-weight: 700;
+  color: var(--button-background-color);
+  max-width: 1200px;
+}
+
+.ContactUs p{
+  font-size: 1.5vw;
+  color: var(--text-dim-color);
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .rightText h2 {
+    font-size: 3vw !important;
+  }
+  .rightText h5 {
+    font-size: 1.3vw !important;
+  }
+  .Categories h2 {
+    font-size: 4vw !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .ContactUs p{
+    font-size: 1.8vw;
+    font-weight: 700;
+  }
+  .responsiveButton {
+    width: 70px !important;
+    height: 30px !important;
+    font-size: 1.8vw !important;
+  }
+
+  .LinkText{
+    font-size: 2.8vw;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .rightText h2 {
+    font-size: 1.8vw;
+  }
+  .rightText h5 {
+    font-size: 0.8vw;
+  }
+  .Categories h2 {
+    font-size: 2.8vw;
+  }
+}
